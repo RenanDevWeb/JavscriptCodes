@@ -8,7 +8,8 @@ const  clasification = {
 
 const cauculateIMC = (weight,height) => {
    let result = weight / (height * height)
-   validateIMC(result)
+   validateIMC(result);
+   console.log(result);
 
 }
 
